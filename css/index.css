@@ -52,6 +52,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
+    font-weight: bold;
 }
 
 html, body {
@@ -202,7 +203,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 40%;
+    width: 45%;
     margin: 1% auto;
 }
 
@@ -231,6 +232,7 @@ hr {
     margin-bottom: 2%;
     padding: 5%;
     width: 40%;
+    font-size: medium;
 }
 
 .about-middle button:hover {
@@ -241,10 +243,15 @@ hr {
     transition: 1s;
 }
 
+.about-bottom {
+    margin: 5% auto;
+}
+
 /* FOOTER */
 footer {
     width: 100%;
     background: black;
+    border-radius: 15px 15px 0px 0px;
 }
 
 footer nav {
