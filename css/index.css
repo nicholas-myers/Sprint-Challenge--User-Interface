@@ -92,7 +92,6 @@ header nav a {
 
 /* CONTENT */
 
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -200,6 +199,23 @@ hr {
 
 .about-middle div {
     width: 50%;
+    margin: 1% auto;
+}
+
+.about-middle img {
+    border: 1px solid white;
+    outline: 2px solid black;
+}
+
+.about-middle hr {
+    width: 90%;
+}
+
+.about-middle button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2%;
 }
 
 /* FOOTER */
