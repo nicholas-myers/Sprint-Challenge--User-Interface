@@ -51,6 +51,7 @@ table {
 /* GENERAL */
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -68,7 +69,23 @@ p {
     line-height: 1.4;
 }
 
+/* HEADER */
+/* NAV */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+
 /* CONTENT */
+
+
 .container {
     width: 800px;
     margin: 0 auto;
