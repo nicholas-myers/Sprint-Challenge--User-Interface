@@ -100,6 +100,11 @@ header nav a:hover {
     outline: 2px solid black;
 }
 
+#contact-img {
+    height: 153px;
+    width: 800px;
+}
+
 
 /* CONTENT */
 
