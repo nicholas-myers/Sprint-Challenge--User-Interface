@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+/* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -66,11 +68,13 @@ p {
     line-height: 1.4;
 }
 
+/* CONTENT */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* TOP */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +89,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* MIDDLE */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +117,7 @@ p {
     justify-content: center;
 }
 
+/* BOTTOM */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +132,8 @@ p {
     padding-right: 0;
 }
 
+
+/* FOOTER */
 footer {
     width: 100%;
     background: black;
