@@ -47,8 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+
+/* GENERAL */
 * {
     box-sizing: border-box;
+    max-width: 100%;
+    font-weight: bold;
 }
 
 html, body {
@@ -66,11 +70,50 @@ p {
     line-height: 1.4;
 }
 
+/* HEADER */
+/* NAV */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+header nav a:hover {
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    padding: 1%;
+    transition: 1s;
+}
+
+.header-img {
+    margin: 1% auto;
+    border: 1px solid white;
+    outline: 2px solid black;
+}
+
+#contact-img {
+    height: 153px;
+    width: 800px;
+}
+
+
+/* CONTENT */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* TOP */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +128,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* MIDDLE */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +156,39 @@ p {
     justify-content: center;
 }
 
+/* BOXES */
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* BOTTOM */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +203,106 @@ p {
     padding-right: 0;
 }
 
+/* ABOUT PAGE */
+hr {
+    border-top: 1px dashed black;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.about-middle div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 45%;
+    margin: 1% auto;
+}
+
+
+
+.about-middle img {
+    border: 1px solid white;
+    outline: 2px solid black;
+    margin-bottom: 2%;
+}
+
+.about-middle p {
+    margin-bottom: 2%;
+}
+
+.about-middle hr {
+    width: 90%;
+    text-align: center;
+}
+
+.about-middle button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 1s;
+    margin-bottom: 2%;
+    padding: 5%;
+    width: 40%;
+    font-size: medium;
+}
+
+.about-middle button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.about-bottom {
+    margin: 5% auto;
+}
+
+/* CONTACT PAGE */
+form {
+    display: flex;
+    justify-content: center;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.submit {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 1s;
+    margin-bottom: 2%;
+    padding: 5%;
+    width: 40%;
+    font-size: medium;
+}
+
+.submit:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+/* PRODUCT/BLOG CONTENT CONTAINER */
+.product-content, .blog-content {
+    height: 100vh;
+}
+
+
+/* FOOTER */
 footer {
     width: 100%;
     background: black;
+    border-radius: 15px 15px 0px 0px;
 }
 
 footer nav {
@@ -143,4 +317,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: 1s;
+}
+
+footer nav a:hover {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    color: black;
+    transition: 1s;
 }
