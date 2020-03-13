@@ -258,6 +258,34 @@ hr {
 }
 
 /* CONTACT PAGE */
+form {
+    display: flex;
+    justify-content: center;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.submit {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 1s;
+    margin-bottom: 2%;
+    padding: 5%;
+    width: 40%;
+    font-size: medium;
+}
+
+.submit:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
 
 /* FOOTER */
 footer {
