@@ -188,6 +188,19 @@ header nav a {
     padding-right: 0;
 }
 
+/* ABOUT PAGE */
+hr {
+    border-top: 1px dashed black;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-middle div {
+    width: 50%;
+}
 
 /* FOOTER */
 footer {
