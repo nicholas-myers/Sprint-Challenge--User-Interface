@@ -159,33 +159,43 @@ header nav a:hover {
 /* BOXES */
 #box1 {
     background-color: teal;
+    border: 1px solid black;
 }
 #box2 {
     background-color: gold;
+    border: 1px solid black;
 }
 #box3 {
     background-color: cadetblue;
+    border: 1px solid black;
 }
 #box4 {
     background-color: coral;
+    border: 1px solid black;
 }
 #box5 {
     background-color: crimson;
+    border: 1px solid black;
 }
 #box6 {
     background-color: forestgreen;
+    border: 1px solid black;
 }
 #box7 {
     background-color: darkorchid;
+    border: 1px solid black;
 }
 #box8 {
     background-color: hotpink;
+    border: 1px solid black;
 }
 #box9 {
     background-color: indigo;
+    border: 1px solid black;
 }
 #box10 {
     background-color: dodgerblue;
+    border: 1px solid black;
 }
 
 /* BOTTOM */
@@ -204,6 +214,11 @@ header nav a:hover {
 }
 
 /* ABOUT PAGE */
+
+.about-top {
+    margin: 5% auto;
+}
+
 hr {
     border-top: 1px dashed black;
 }
@@ -259,6 +274,64 @@ hr {
 }
 
 .about-bottom {
+    margin: 5% auto;
+}
+/* PRODUCT PAGE */
+.product-top {
+    margin: 5% auto;
+}
+
+.product-middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product-middle div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 45%;
+    margin: 1% auto;
+}
+
+
+
+.product-middle img {
+    border: 1px solid white;
+    outline: 2px solid black;
+    margin-bottom: 2%;
+}
+
+.product-middle p {
+    margin-bottom: 2%;
+}
+
+.product-middle hr {
+    width: 90%;
+    text-align: center;
+}
+
+.product-middle button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 1s;
+    margin-bottom: 2%;
+    padding: 5%;
+    width: 40%;
+    font-size: medium;
+}
+
+.product-middle button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.product-bottom {
     margin: 5% auto;
 }
 
