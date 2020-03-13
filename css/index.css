@@ -292,6 +292,12 @@ form div {
     transition: 1s;
 }
 
+/* PRODUCT/BLOG CONTENT CONTAINER */
+.product-content, .blog-content {
+    height: 100vh;
+}
+
+
 /* FOOTER */
 footer {
     width: 100%;
